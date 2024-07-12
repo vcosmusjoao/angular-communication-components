@@ -1,0 +1,17 @@
+.widgets .card {
+    width: 261px;
+    height: 250px;
+    background-color: rgba(217, 217, 217, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.widgets .card span {
+    
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:60px;
+}

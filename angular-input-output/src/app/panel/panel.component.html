@@ -1,0 +1,11 @@
+<div class="container">
+    <div [ngStyle]="{'background-color': theme}" class="panel">
+        <h1>Control Panel</h1>
+        <div class="widgets">
+            <app-weather-widget [temperatura]="temperaturaAtual"></app-weather-widget>
+        </div>
+        <div class="side-panel">
+            <app-config-theme (themeChange)="onThemeChange($event)"></app-config-theme>
+        </div>
+    </div>
+</div>
